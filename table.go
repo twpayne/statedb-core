@@ -7,12 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/util/sets"
-
 	"github.com/cilium/statedb/internal"
 	iradix "github.com/hashicorp/go-immutable-radix/v2"
 
 	"github.com/cilium/statedb/index"
+	"github.com/cilium/statedb/sets"
 )
 
 // NewTable creates a new table with given name and indexes.

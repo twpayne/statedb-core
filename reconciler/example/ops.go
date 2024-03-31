@@ -11,11 +11,10 @@ import (
 	"os"
 	"path"
 
-	"k8s.io/apimachinery/pkg/util/sets"
-
 	"github.com/cilium/hive/cell"
 	"github.com/cilium/statedb"
 	"github.com/cilium/statedb/reconciler"
+	"github.com/cilium/statedb/sets"
 )
 
 // MemoOps writes [Memo]s to disk.

@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/cilium/statedb/sets"
 )
 
 // Collect creates a slice of objects out of the iterator.
